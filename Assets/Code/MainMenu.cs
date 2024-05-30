@@ -5,19 +5,24 @@ using UnityEngine.SceneManagement;
 
 public class MainMenu : MonoBehaviour
 {
-    public void PlayGame()
+    public void PlayGameEZ()
     {
         SceneManager.LoadSceneAsync(1);
+    }
+
+    public void PlayGameMED()
+    {
+        SceneManager.LoadSceneAsync(2);
+    }
+
+    public void PlayGameHARD()
+    {
+        SceneManager.LoadSceneAsync(3);
     }
 
     public void Back2MM()
     {
         SceneManager.LoadSceneAsync(0);
-    }
-
-    public void ReChallange()
-    {
-        SceneManager.LoadSceneAsync(1);
     }
 
     public void QuitGame()

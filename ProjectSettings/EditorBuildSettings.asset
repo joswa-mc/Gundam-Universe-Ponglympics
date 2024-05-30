@@ -9,12 +9,24 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 11b9d7d277e83d842ba8dd80676c04ab
   - enabled: 1
+    path: Assets/Scenes/PongField(Easy).unity
+    guid: fee7bc3f4cfc2d54486e175e2aa62c2d
+  - enabled: 1
     path: Assets/Scenes/PongField(Med).unity
     guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
-    path: Assets/Scenes/GameOver(PlayerWins).unity
+    path: Assets/Scenes/PongField(Hard).unity
+    guid: 133d27e20b81b0142844f89941e12e40
+  - enabled: 1
+    path: Assets/Scenes/GameOver(PW).unity
     guid: e0e2b80472fe72447a6ddf178223b1e4
   - enabled: 1
-    path: Assets/Scenes/GameOver(ZakuWins).unity
+    path: Assets/Scenes/GameOver(ZWEZ).unity
     guid: 7df40af12f28cdc4b8daab7a3667b9c7
+  - enabled: 1
+    path: Assets/Scenes/GameOver(ZWMED).unity
+    guid: 6377b87ef5c3869499c812fab250d7cf
+  - enabled: 1
+    path: Assets/Scenes/GameOver(ZWHARD).unity
+    guid: 239bb2d137507c440b49a727b7f16a4b
   m_configObjects: {}
