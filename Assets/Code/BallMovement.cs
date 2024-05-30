@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEditor.U2D.Path;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.SocialPlatforms.Impl;
 using UnityEngine.UI;
 
 public class BallMovement : MonoBehaviour
@@ -20,6 +22,14 @@ public class BallMovement : MonoBehaviour
     private void FixedUpdate()
     {
         rb.velocity = Vector2.ClampMagnitude(rb.velocity, InitialSpeed + (SpeedIncrease * HitCounter));
+        if(int.Parse(PlayerScore.text) == 5)
+        {
+            SceneManager.LoadSceneAsync(2);
+        }
+        else if (int.Parse(AIScore.text) == 5)
+        {
+            SceneManager.LoadSceneAsync(3);
+        }
     }
     private void StartBall()
     {
