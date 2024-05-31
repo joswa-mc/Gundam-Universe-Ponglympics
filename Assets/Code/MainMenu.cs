@@ -23,6 +23,7 @@ public class MainMenu : MonoBehaviour
     public void Back2MM()
     {
         SceneManager.LoadSceneAsync(0);
+        Time.timeScale = 1;
     }
 
     public void QuitGame()
