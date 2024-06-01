@@ -17,6 +17,7 @@ public class BallMovementMM : MonoBehaviour
     public bool CWRot;
     private int HitCounter;
     private Rigidbody2D rb;
+    public AudioSource audioPlayer;
     void Start()
     {//ball go
         rb = GetComponent<Rigidbody2D>();
@@ -37,6 +38,7 @@ public class BallMovementMM : MonoBehaviour
 
         rb.velocity = Vector2.ClampMagnitude(rb.velocity, InitialSpeed + (SpeedIncrease * HitCounter)); //speed up
     }
+
     private void StartBall()
     {//where ball go
         RadNum = UnityEngine.Random.Range(1, 20);
@@ -80,10 +82,11 @@ public class BallMovementMM : MonoBehaviour
         rb.velocity = new Vector2(xDirection, yDirection) * (InitialSpeed + (SpeedIncrease * HitCounter));
     }
     private void OnCollisionEnter2D(Collision2D collision)
-    {
+    {//detections and sfx
         if(collision.gameObject.name == "Player" || collision.gameObject.name == "AI")
         {
             playerBounce(collision.transform);
+            audioPlayer.Play();
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)

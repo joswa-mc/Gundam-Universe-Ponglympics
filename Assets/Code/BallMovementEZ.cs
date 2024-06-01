@@ -18,6 +18,7 @@ public class BallMovementEZ : MonoBehaviour
     public bool CWRot;
     private int HitCounter;
     private Rigidbody2D rb;
+    public AudioSource audioPlayer;
     void Start()
     {//ball go
         rb = GetComponent<Rigidbody2D>();
@@ -89,10 +90,11 @@ public class BallMovementEZ : MonoBehaviour
         rb.velocity = new Vector2(xDirection, yDirection) * (InitialSpeed + (SpeedIncrease * HitCounter));
     }
     private void OnCollisionEnter2D(Collision2D collision)
-    {
+    {//bounce and sfx
         if (collision.gameObject.name == "Player" || collision.gameObject.name == "AI")
         {
             playerBounce(collision.transform);
+            audioPlayer.Play();
         }
     }
     private void OnTriggerEnter2D(Collider2D collision)
