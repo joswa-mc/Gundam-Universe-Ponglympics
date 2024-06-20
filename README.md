@@ -1,4 +1,4 @@
-GanePrograming (Pong Project) Gundam Universe: Ponglympics
+GamePrograming (Pong Project) Gundam Universe: Ponglympics
 // Read Me In Progress //
 
 -- Itch.io Link --
