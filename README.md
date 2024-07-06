@@ -1,8 +1,8 @@
-GamePrograming (Pong Project) Gundam Universe: Ponglympics
+ GamePrograming (Pong Project) Gundam Universe: Ponglympics
 // Read Me In Progress //
 
 -- Itch.io Link --
-Link: // Enter Link Here //
+Link: (https://creasedjordans.itch.io/gundam-universe-ponglympics)
 
 -- Assets Origins --
 1. Characters and GameObjects:
