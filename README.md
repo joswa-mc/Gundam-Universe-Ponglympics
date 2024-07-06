@@ -26,3 +26,8 @@ Link: // Enter Link Here //
           d. Space Asteroid WPP: https://www.pxfuel.com/id/desktop-wallpaper-pplri
           e. Space Battle WPP: https://wallpaperwaifu.com/sci-fi-fantasy/battle-in-outer-space-live-wallpaper/
           f. Space Planet: https://wall.alphacoders.com/big.php?i=1251974
+   - Audio:
+         - Gundam SEED Destiny Shutsugeki! Impulse
+         - Mobile Suit Gundam OST 1 Track 7 - Gallant Char
+         - Mobile Suit Gundam SEED - Strike Shutsugeki (SRW J Tempo)
+         - Ready Pixel One
