@@ -4,9 +4,6 @@ GamePrograming (Pong Project) Gundam Universe: Ponglympics
 -- Itch.io Link --
 Link: // Enter Link Here //
 
--- Youtube Link --
-Link: // Enter Link Here //
-
 -- Assets Origins --
 1. Characters and GameObjects:
     - Gundam R1: https://id.pinterest.com/pin/264868021804266892/
